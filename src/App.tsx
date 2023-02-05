@@ -3,6 +3,7 @@ import { Buttons } from './Buttons';
 import { CarsModel } from './CarsModel';
 import { UseStateForLearning } from './UseStateForLearning';
 import './styles.css';
+import { Filter } from './Filter';
 
 
 
@@ -17,6 +18,7 @@ function App() {
             <CarsModel cars={topCars} />
             <Buttons />
             <UseStateForLearning/>
+            <Filter/>
         </>
     );
 }
