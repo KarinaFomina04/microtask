@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles.css';
 
 export type CarsPropsType = {
     cars: Array<CarsType>
