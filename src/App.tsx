@@ -4,6 +4,7 @@ import { CarsModel } from './CarsModel';
 import { UseStateForLearning } from './UseStateForLearning';
 import './styles.css';
 import { Filter } from './Filter';
+import {Input} from './Input';
 
 
 
@@ -15,10 +16,11 @@ function App() {
     ]
     return (
         <>
-            <CarsModel cars={topCars} />
+            {/* <CarsModel cars={topCars} />
             <Buttons />
             <UseStateForLearning/>
-            <Filter/>
+            <Filter/> */}
+            <Input/>
         </>
     );
 }
